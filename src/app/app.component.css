@@ -1,0 +1,62 @@
+header {
+    background-color: #1976D2; /* Color primario de Angular Material */
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+
+  nav {
+    background-color: #2196F3; /* Color primario de Angular Material */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  a {
+    color: white;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  mat-toolbar {
+    background-color: #2196F3; /* Color primario de Angular Material */
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header {
+    background-color: #1976D2; /* Color primario */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    padding: 10px;
+    text-align: center; /* Ajusta el texto al centro */
+  }
+  
+  .logo {
+    margin-right: 10px;
+    max-height: 80px; /* Ajusta la altura máxima según tus necesidades */
+  }
+
+
+  .mat-toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px; /* Ajusta la altura según tus necesidades */
+  }
+  
+  .mat-button {
+    margin-right: 10px; /* Ajusta el espacio entre los botones según tus necesidades */
+  }

@@ -1,0 +1,17 @@
+
+
+<div class="container">
+    <h2>Formulario de Contacto</h2>
+    <form [formGroup]="contactoForm" (ngSubmit)="enviarFormulario()">
+      <mat-form-field>
+        <input matInput placeholder="Nombre" formControlName="nombre" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Correo electrónico" formControlName="correo" required>
+      </mat-form-field>
+      <mat-form-field>
+        <textarea matInput placeholder="Mensaje" formControlName="mensaje" required></textarea>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Enviar</button>
+    </form>
+  </div>

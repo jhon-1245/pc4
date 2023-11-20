@@ -1,0 +1,26 @@
+<p></p>
+
+<div class="container">
+    <h2>SERVICIOS</h2>
+    <p>
+      La Clínica San Gabriel pone a tu disposición una atención integral,
+      contando con el respaldo de un equipo de médicos de reconocida trayectoria
+      en cada una de sus especialidades y demás profesionales de la salud altamente
+      capacitados en sus respectivas áreas médicas o quirúrgicas. Te brindarán un
+      trato amable y cálido en cada una de tus visitas.
+    </p>
+  </div>
+
+<mat-grid-list cols="4" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let item of gridItems">
+      <img src="{{ item.image }}" alt="Image">
+      <div class="image-content">
+        <div class="image-title">{{ item.title }}</div>
+        <div class="image-text">{{ item.text }}</div>        
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+
+  
+  

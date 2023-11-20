@@ -1,0 +1,10 @@
+nav {
+    background-color: #2196F3; /* Color primario de Angular Material */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  a {
+    color: white;
+  }
